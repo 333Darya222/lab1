@@ -13,7 +13,7 @@ namespace лаба1
             int year;
             string tmp;
             string pause;
-            Console.WriteLine("Введите число:");
+            Console.WriteLine(" число:");
             tmp = Console.ReadLine();
             year = Convert.ToInt32(tmp);
             Console.WriteLine($"Введеный год: {year}");
