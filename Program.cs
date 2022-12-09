@@ -18,12 +18,13 @@ namespace лаба1
             year = Convert.ToInt32(tmp);
             Console.WriteLine($"Введеный год: {year}");
 
-            if (year % 4 == 0)
-            {
+            if (!(year % 100 == 0 && year % 400 != 0) && (year % 4 == 0))
+                {
                 Console.WriteLine("Год високосный");
             }
             else
             {
+
                 Console.WriteLine("Год не високосный");
             }
             pause = Console.ReadLine();
